@@ -1,0 +1,17 @@
+
+CREATE TABLE StudentMark (
+    student_id INT PRIMARY KEY,
+    first_name VARCHAR(30),
+    last_name VARCHAR(20),
+    marks INT
+);
+
+insert into StudentMark(Rollno, first_name, last_name, marks)Values
+(232201,'Akalya','Murugasan',70),
+(232202,'Sandy','Baskar',50),
+(232203,'Akalyzz','Kalippan',90),
+(232204,'pavi','Paulraj',30)
+
+SELECT *
+FROM StudentMark
+WHERE marks > 80;
