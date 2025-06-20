@@ -9,20 +9,20 @@ CREATE TABLE Customers (
 
 INSERT INTO Customers (CustomerID, FirstName, LastName, Email, City, Country, Age)
 VALUES 
-(1,'Jumana','jumana@gmail.com', 'New York', 'USA', 19),
-(2,'Rehana','rehana@gmail.com', 'Los Angeles', 'USA', 35),
-(3,'Noufiya','noufiya@gmail.com', 'Madrid', 'Spain', 42),
-(4,'Nafeesha','nafeesha@gmail.com', 'Delhi', 'India', 25),
-(5, 'Inshira','inshira@gmail.com', 'Barcelona', 'Spain', 31);
+(1,'akalya','akalya@gmail.com', 'New York', 'USA', 19),
+(2,'akalzz','akalzz@gmail.com', 'Los Angeles', 'USA', 20),
+(3,'sandy','sandy@gmail.com', 'Madrid', 'India', 21),
+(4,'hari','hari@gmail.com', 'Delhi', 'India', 22),
+(5, 'charu','charu@gmail.com', 'Barcelona', 'Spain', 23);
 
 SELECT * FROM Customers
 WHERE Country = 'Spain';
 
 SELECT * FROM Customers
-WHERE Age > 30;
+WHERE Age > 23;
 
 SELECT * FROM Customers
-WHERE City = 'Delhi' AND Age < 30;
+WHERE City = 'Delhi' AND Age < 22;
 
 SELECT * FROM Customers
 WHERE Name LIKE 'A%';
